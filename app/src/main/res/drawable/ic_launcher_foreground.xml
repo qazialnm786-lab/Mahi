@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer soundwave aura glow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeColor="#40E040FB"
+        android:pathData="M 33 54 A 21 21 0 0 1 75 54 A 21 21 0 0 1 33 54" />
+        
+    <!-- Concentric wave arcs -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#8000F0FF"
+        android:pathData="M 38 46 C 35 50 35 58 38 62" />
+        
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#8000F0FF"
+        android:pathData="M 70 46 C 73 50 73 58 70 62" />
+
+    <!-- Center Glowing Audio Core with Gradient -->
+    <path android:pathData="M 54 36 C 44 36 36 44 36 54 C 36 64 44 72 54 72 C 64 72 72 64 72 54 C 72 44 64 36 54 36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="36"
+                android:endX="72"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#FF00F0FF" android:offset="0.0" />
+                <item android:color="#FFE040FB" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Icon: Sleek Modern Microphone Silhouette -->
+    <!-- Mic capsule -->
+    <path
+        android:fillColor="#0B0D19"
+        android:pathData="M 54 42 C 51.5 42 49.5 44 49.5 46.5 L 49.5 53 C 49.5 55.5 51.5 57.5 54 57.5 C 56.5 57.5 58.5 55.5 58.5 53 L 58.5 46.5 C 58.5 44 56.5 42 54 42 Z" />
+    
+    <!-- Mic cradle arc -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeColor="#0B0D19"
+        android:pathData="M 46.5 51 C 46.5 56 50 59.5 54 59.5 C 58 59.5 61.5 56 61.5 51" />
+        
+    <!-- Mic stem and base -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeColor="#0B0D19"
+        android:pathData="M 54 59.5 L 54 64 M 50 64 L 58 64" />
+
+</vector>
